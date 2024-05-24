@@ -1,0 +1,2428 @@
+fileFormatVersion: 2
+guid: 8d6eb8ff3c8a20f4ebd0f5ad5790d422
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3707
+        width: 460
+        height: 388
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de3e9ccc19a1da4482b0144bb4e6769
+      internalID: 234258738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_1
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 3707
+        width: 464
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b21f9a3f8fbac6498aac7f6c57def25
+      internalID: -705162747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_2
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 3665
+        width: 362
+        height: 404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316ac72a78e56b343bca6a6d154737dd
+      internalID: 1907151990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_3
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 3660
+        width: 463
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a7c0d9f936afb4fbaa2cebec0484f9
+      internalID: -1323393274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_4
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 3657
+        width: 340
+        height: 404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba11ff68de8d5b419b04115c5d89a31
+      internalID: -343541392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_5
+      rect:
+        serializedVersion: 2
+        x: 2089
+        y: 3635
+        width: 348
+        height: 460
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d9f24323efd724989dd649e9073a60
+      internalID: -60903807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_6
+      rect:
+        serializedVersion: 2
+        x: 2443
+        y: 3633
+        width: 374
+        height: 463
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229a7fa548a7b5c428c23ba0d86a3598
+      internalID: -1684292647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_7
+      rect:
+        serializedVersion: 2
+        x: 2811
+        y: 3791
+        width: 522
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56434e35051ee7f4da73c8fb297e4e93
+      internalID: -350597566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_8
+      rect:
+        serializedVersion: 2
+        x: 3269
+        y: 3735
+        width: 458
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043c223a2f4aaf04e85a679cb6bab8c7
+      internalID: -1315658529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_9
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 3886
+        width: 454
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377c5ae0680e80b42afcbea53e8b0e74
+      internalID: 547306192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_10
+      rect:
+        serializedVersion: 2
+        x: 3877
+        y: 3675
+        width: 124
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a0e111fc11ce145ada0dbece7969c4
+      internalID: -14853712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3263
+        width: 506
+        height: 446
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56cbf6f8be9dc0b4bae5bcf183aa34dc
+      internalID: 1210480109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_12
+      rect:
+        serializedVersion: 2
+        x: 2439
+        y: 3675
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a77fb977969835488a675d93116da52
+      internalID: 1328862042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_13
+      rect:
+        serializedVersion: 2
+        x: 2812
+        y: 3337
+        width: 353
+        height: 457
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d241fedb1d13fe46ae80315ab1ac845
+      internalID: -335893390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_14
+      rect:
+        serializedVersion: 2
+        x: 3165
+        y: 3389
+        width: 456
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03dbca346b731664d8784d5e4c15466b
+      internalID: -1296323869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_15
+      rect:
+        serializedVersion: 2
+        x: 3643
+        y: 3213
+        width: 353
+        height: 614
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33116fac38fce8e4f91f0901205a3443
+      internalID: 1974994909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_16
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 3499
+        width: 316
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d46be5616b922b41bc7af65bbfa9c2a
+      internalID: -1051277396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_17
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 3005
+        width: 508
+        height: 496
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd54bc5e7bc27c40a36ce8a4680e3f3
+      internalID: 1132254566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_18
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 3499
+        width: 312
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1448080a99f794a88e1b1ed25829db
+      internalID: 1761381211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_19
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 3191
+        width: 482
+        height: 470
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52a4c3a6ba39ad429008b9314d1c41b
+      internalID: 410815483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_20
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 3195
+        width: 349
+        height: 462
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a57a1bb497e456419d5952a3dcce19c
+      internalID: 1622965386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_21
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 3157
+        width: 504
+        height: 479
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b101738056e1b64aa74d6b8080876a0
+      internalID: 628690778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2891
+        width: 543
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2da6c08e3655264db62e7f407240d9e
+      internalID: 423310148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_23
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 3235
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ea0a248c125404397c888094c15c64
+      internalID: 729106872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_24
+      rect:
+        serializedVersion: 2
+        x: 2475
+        y: 2865
+        width: 358
+        height: 462
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3068e25f37048428200ecc3178356f
+      internalID: 1888857710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_25
+      rect:
+        serializedVersion: 2
+        x: 2828
+        y: 2875
+        width: 349
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482c62ee899b79541bb5ebcb3098d0d1
+      internalID: 1381040042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_26
+      rect:
+        serializedVersion: 2
+        x: 3181
+        y: 2997
+        width: 462
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb572ed9447cfb945a56623e9f834ea3
+      internalID: 900959851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_27
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 2723
+        width: 522
+        height: 472
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11881498b083def40aaa9bf192028b90
+      internalID: -533568817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_28
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 3194
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67834a60e253ce348a0abf040efbf672
+      internalID: 1538391096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_29
+      rect:
+        serializedVersion: 2
+        x: 3742
+        y: 2755
+        width: 354
+        height: 460
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb6e4de176c27f64b83df83e70e96aba
+      internalID: -395386352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_30
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 2997
+        width: 158
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51180de47d834e4d930a452eb3dee43
+      internalID: -1837374348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_31
+      rect:
+        serializedVersion: 2
+        x: 1783
+        y: 2969
+        width: 460
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c49ecfaf113fd44ab563590e89b596f
+      internalID: -1184556874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_32
+      rect:
+        serializedVersion: 2
+        x: 2243
+        y: 3015
+        width: 112
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1593d08022c0adf4b87c1d511fa51426
+      internalID: 914495657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_33
+      rect:
+        serializedVersion: 2
+        x: 2357
+        y: 3011
+        width: 122
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b489980d51ead45ad10038b3db958c
+      internalID: 341386657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_34
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 2609
+        width: 537
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87220932ccd959745a681840400e7262
+      internalID: 1863226729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_35
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 2603
+        width: 529
+        height: 368
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d443bd5ab6c0f44e80c8b82fdc0af28
+      internalID: -171945658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_36
+      rect:
+        serializedVersion: 2
+        x: 2243
+        y: 2865
+        width: 160
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4f809591eb64a4bbba5d8058942bd1
+      internalID: -1505523235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_37
+      rect:
+        serializedVersion: 2
+        x: 3179
+        y: 2916
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b8db1fe4aed2846820c6b11254e250
+      internalID: -48633326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_38
+      rect:
+        serializedVersion: 2
+        x: 3209
+        y: 2657
+        width: 538
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c9c0c9ef85e7a458129d23c376185f
+      internalID: 2070304063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2577
+        width: 563
+        height: 318
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4371441dc4cb6949a0eb1619f4b1356
+      internalID: 1134149789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_40
+      rect:
+        serializedVersion: 2
+        x: 2831
+        y: 2387
+        width: 380
+        height: 490
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647ac5741b8e4e045805b9e24ab675df
+      internalID: 1118133274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_41
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 2874
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a603094a416b2f64ea0e118d81231663
+      internalID: -1324909048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_42
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 2205
+        width: 568
+        height: 408
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d61678e4e787d64c9b8d2f610e673e8
+      internalID: -1005891433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_43
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 2333
+        width: 553
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf049b196ceba084b825dc1fc55a53fb
+      internalID: 1040505769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_44
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 2205
+        width: 555
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df40916ae669904f90b005a0b292deb
+      internalID: -296386111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_45
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 2598
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa082fa34b8ce744d9e87d41a6cf450d
+      internalID: 1513346836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_46
+      rect:
+        serializedVersion: 2
+        x: 2289
+        y: 2371
+        width: 542
+        height: 496
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f89cec049330548ba0593ed27614b5
+      internalID: 636410278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_47
+      rect:
+        serializedVersion: 2
+        x: 3211
+        y: 2235
+        width: 554
+        height: 421
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181ca4f7207f6cb44b58760bf689037d
+      internalID: -1902306460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_48
+      rect:
+        serializedVersion: 2
+        x: 3764
+        y: 2483
+        width: 259
+        height: 276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d3b9c8386c50041a54b6837f150a37
+      internalID: 328376614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1817
+        width: 575
+        height: 764
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505d00a857beb0f47a0829b54fceb0db
+      internalID: -1131491885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_50
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 1949
+        width: 567
+        height: 388
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52dc18007e6700845a289e8c1e23b606
+      internalID: -250892274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_51
+      rect:
+        serializedVersion: 2
+        x: 2355
+        y: 1963
+        width: 568
+        height: 412
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b04921f074885a4aa84ed1e57f8f5d7
+      internalID: -1222106968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_52
+      rect:
+        serializedVersion: 2
+        x: 2917
+        y: 1689
+        width: 296
+        height: 694
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5fc4399e4d9209438ae534b09676595
+      internalID: 818157695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_53
+      rect:
+        serializedVersion: 2
+        x: 3763
+        y: 2321
+        width: 264
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4454c3e8223b3674fb55334c207fca0d
+      internalID: -294758161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_54
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1666
+        width: 578
+        height: 545
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6ec32ec3fab8d498d1fa3703547504
+      internalID: 1755211643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_55
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 1819
+        width: 562
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a16389469ed71447b356c9c462227f7
+      internalID: 49682536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_56
+      rect:
+        serializedVersion: 2
+        x: 3211
+        y: 1837
+        width: 586
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644b692a83175564fa396cdf8fb74613
+      internalID: -1952833755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_57
+      rect:
+        serializedVersion: 2
+        x: 3795
+        y: 1979
+        width: 301
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec2cc10d2876be429bcd988d80082e2
+      internalID: -1727456893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_58
+      rect:
+        serializedVersion: 2
+        x: 3830
+        y: 1815
+        width: 263
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5759fcea5e7dfdf4eb2619d1174a5964
+      internalID: -2021696125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_59
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1469
+        width: 597
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08bb104d37b81574d98e4b0633bb2de9
+      internalID: -901317647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_60
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 1605
+        width: 578
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49c3e6343d00a644b085c72610aa50b
+      internalID: -42788262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_61
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 1484
+        width: 586
+        height: 339
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86517eb70bf4dd74db4515b35a9c4a91
+      internalID: -192566332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_62
+      rect:
+        serializedVersion: 2
+        x: 2459
+        y: 1553
+        width: 586
+        height: 412
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9603994e2c2de442b4f1d4b97f71a48
+      internalID: 674726431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_63
+      rect:
+        serializedVersion: 2
+        x: 3249
+        y: 1323
+        width: 582
+        height: 519
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea02b49c105db034b9649fd9495d3670
+      internalID: 1304981156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_64
+      rect:
+        serializedVersion: 2
+        x: 3877
+        y: 1809
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94006661a41f5a3428bd1e0bbec40657
+      internalID: 782372566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1077
+        width: 619
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1dbf90fe08cda419964f715f24ae1c
+      internalID: -565051458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_66
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 523
+        width: 1266
+        height: 1144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdfe21e722f1d4e4ea92540adba41a97
+      internalID: -170551178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_67
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 1152
+        width: 601
+        height: 335
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa25b3791c6f51d49b4d43690cdae6cb
+      internalID: -796770073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_68
+      rect:
+        serializedVersion: 2
+        x: 2479
+        y: 1173
+        width: 588
+        height: 382
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000b26994bac1b24581023412cad87df
+      internalID: 237878127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_69
+      rect:
+        serializedVersion: 2
+        x: 3064
+        y: 1427
+        width: 179
+        height: 266
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431fa99639af4c8428b0f04f4d34355f
+      internalID: -2072484511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_70
+      rect:
+        serializedVersion: 2
+        x: 3829
+        y: 1467
+        width: 267
+        height: 340
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89d8bf1bac38e544863898e124e0d29
+      internalID: -1197469700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_71
+      rect:
+        serializedVersion: 2
+        x: 3067
+        y: 1177
+        width: 182
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c36c94f5b485b429f410e25a61476b
+      internalID: -986971087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_72
+      rect:
+        serializedVersion: 2
+        x: 3320
+        y: 1300
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3207e7f5a02d3b44da9fa11caed00720
+      internalID: 1061069854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_73
+      rect:
+        serializedVersion: 2
+        x: 3392
+        y: 1320
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b614d644de690489d8c512d159db96
+      internalID: 1947239161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_74
+      rect:
+        serializedVersion: 2
+        x: 3398
+        y: 1316
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dced0ba8f0a66142897b950ba9804de
+      internalID: 1866386135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_75
+      rect:
+        serializedVersion: 2
+        x: 3875
+        y: 1269
+        width: 221
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9129c08aaf636439afb2648c779609
+      internalID: 1659321052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_76
+      rect:
+        serializedVersion: 2
+        x: 3528
+        y: 1306
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa25f8b27fca2e468502e8bba43bfe5
+      internalID: -250130708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_77
+      rect:
+        serializedVersion: 2
+        x: 3532
+        y: 1298
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3392d50c7dc06a54d8e2e4ec98b18377
+      internalID: 1199722976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_78
+      rect:
+        serializedVersion: 2
+        x: 3546
+        y: 1308
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b387bb5e600cfb14f884b1ce19412dd4
+      internalID: -1597405261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_79
+      rect:
+        serializedVersion: 2
+        x: 3564
+        y: 1292
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7dd207d5c67a454a9b63e6123aaab0d
+      internalID: 1176996619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 536
+        width: 449
+        height: 543
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f5f21af4c5f72438e78c3655262066
+      internalID: -1132662585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_81
+      rect:
+        serializedVersion: 2
+        x: 1977
+        y: 803
+        width: 608
+        height: 353
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc3c006024d26645b4f379abbbbfd88
+      internalID: -975597147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_82
+      rect:
+        serializedVersion: 2
+        x: 2583
+        y: 388
+        width: 688
+        height: 788
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1b9a1be025f594fbb6f263370edaae
+      internalID: -1305246706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_83
+      rect:
+        serializedVersion: 2
+        x: 3307
+        y: 801
+        width: 570
+        height: 441
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7212b9fca9225b649a80d0fe07879d60
+      internalID: -1517336572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_84
+      rect:
+        serializedVersion: 2
+        x: 3875
+        y: 837
+        width: 202
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820422981e3cd2d4ebe5805b099f2dcc
+      internalID: -1047633409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_85
+      rect:
+        serializedVersion: 2
+        x: 3878
+        y: 1033
+        width: 191
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969783f6af385ac4582f6ac33c267294
+      internalID: 1793619693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_86
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 411
+        width: 629
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93db05580db81484b9c8ac271db5c35c
+      internalID: 228234483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_87
+      rect:
+        serializedVersion: 2
+        x: 1977
+        y: 411
+        width: 611
+        height: 392
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89ac5a5b4c861743a7a894e0813e509
+      internalID: 30107570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_88
+      rect:
+        serializedVersion: 2
+        x: 3490
+        y: 788
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aac8d5edda841f45b949b7c083d1649
+      internalID: 1550279071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_89
+      rect:
+        serializedVersion: 2
+        x: 3502
+        y: 784
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c172375dfdbd2478243169c0e0cb69
+      internalID: -1840714914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_90
+      rect:
+        serializedVersion: 2
+        x: 3887
+        y: 614
+        width: 192
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3ab3b3b0ed1934b88d6bf1547fd633
+      internalID: -549831540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_91
+      rect:
+        serializedVersion: 2
+        x: 3267
+        y: 395
+        width: 615
+        height: 388
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27a8cc04891fcc4e8580e861b92285b
+      internalID: -1309957494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_92
+      rect:
+        serializedVersion: 2
+        x: 3880
+        y: 716
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c636854fc0f0f84aa4e7fd0179535c4
+      internalID: -1042193632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_93
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 468
+        height: 518
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d12ac9b0ce6a9144ad996384f48bbb1
+      internalID: -694020271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_94
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 515
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f668c7730402648bde40fcf1a80767
+      internalID: 1401421925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_95
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 1
+        width: 661
+        height: 522
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c3d144d421c9b4781d3a163cf23a09
+      internalID: -2024665955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_96
+      rect:
+        serializedVersion: 2
+        x: 3883
+        y: 429
+        width: 213
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584d154ae3378b54386fb9299d429be7
+      internalID: 662695017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_97
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 294
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f57f0aaec317b469f9250b46de3ec9
+      internalID: -31282324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_98
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 3
+        width: 656
+        height: 410
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e902def79610f0d4c9884236014b9323
+      internalID: 843920419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_99
+      rect:
+        serializedVersion: 2
+        x: 2005
+        y: 0
+        width: 650
+        height: 413
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ab0d1751cd60149a4eaf0f6fd7779c
+      internalID: -644662995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_100
+      rect:
+        serializedVersion: 2
+        x: 2651
+        y: 0
+        width: 618
+        height: 391
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96653628ef1945a4eb5733e19789ddd1
+      internalID: 2099831844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_101
+      rect:
+        serializedVersion: 2
+        x: 3267
+        y: 0
+        width: 620
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1e5bdcf81f89a4186fae31f2b0a07c
+      internalID: -595792404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_102
+      rect:
+        serializedVersion: 2
+        x: 3883
+        y: 1
+        width: 210
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6566bf6dc09cc4943b15fb816d97bb9e
+      internalID: -268028781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: False Knight - atlas0 #0482_103
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 160
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6385b17aeddaa10449d61d48399c5b5b
+      internalID: -1999904905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      False Knight - atlas0 #0482_0: 234258738
+      False Knight - atlas0 #0482_1: -705162747
+      False Knight - atlas0 #0482_10: -14853712
+      False Knight - atlas0 #0482_100: 2099831844
+      False Knight - atlas0 #0482_101: -595792404
+      False Knight - atlas0 #0482_102: -268028781
+      False Knight - atlas0 #0482_103: -1999904905
+      False Knight - atlas0 #0482_11: 1210480109
+      False Knight - atlas0 #0482_12: 1328862042
+      False Knight - atlas0 #0482_13: -335893390
+      False Knight - atlas0 #0482_14: -1296323869
+      False Knight - atlas0 #0482_15: 1974994909
+      False Knight - atlas0 #0482_16: -1051277396
+      False Knight - atlas0 #0482_17: 1132254566
+      False Knight - atlas0 #0482_18: 1761381211
+      False Knight - atlas0 #0482_19: 410815483
+      False Knight - atlas0 #0482_2: 1907151990
+      False Knight - atlas0 #0482_20: 1622965386
+      False Knight - atlas0 #0482_21: 628690778
+      False Knight - atlas0 #0482_22: 423310148
+      False Knight - atlas0 #0482_23: 729106872
+      False Knight - atlas0 #0482_24: 1888857710
+      False Knight - atlas0 #0482_25: 1381040042
+      False Knight - atlas0 #0482_26: 900959851
+      False Knight - atlas0 #0482_27: -533568817
+      False Knight - atlas0 #0482_28: 1538391096
+      False Knight - atlas0 #0482_29: -395386352
+      False Knight - atlas0 #0482_3: -1323393274
+      False Knight - atlas0 #0482_30: -1837374348
+      False Knight - atlas0 #0482_31: -1184556874
+      False Knight - atlas0 #0482_32: 914495657
+      False Knight - atlas0 #0482_33: 341386657
+      False Knight - atlas0 #0482_34: 1863226729
+      False Knight - atlas0 #0482_35: -171945658
+      False Knight - atlas0 #0482_36: -1505523235
+      False Knight - atlas0 #0482_37: -48633326
+      False Knight - atlas0 #0482_38: 2070304063
+      False Knight - atlas0 #0482_39: 1134149789
+      False Knight - atlas0 #0482_4: -343541392
+      False Knight - atlas0 #0482_40: 1118133274
+      False Knight - atlas0 #0482_41: -1324909048
+      False Knight - atlas0 #0482_42: -1005891433
+      False Knight - atlas0 #0482_43: 1040505769
+      False Knight - atlas0 #0482_44: -296386111
+      False Knight - atlas0 #0482_45: 1513346836
+      False Knight - atlas0 #0482_46: 636410278
+      False Knight - atlas0 #0482_47: -1902306460
+      False Knight - atlas0 #0482_48: 328376614
+      False Knight - atlas0 #0482_49: -1131491885
+      False Knight - atlas0 #0482_5: -60903807
+      False Knight - atlas0 #0482_50: -250892274
+      False Knight - atlas0 #0482_51: -1222106968
+      False Knight - atlas0 #0482_52: 818157695
+      False Knight - atlas0 #0482_53: -294758161
+      False Knight - atlas0 #0482_54: 1755211643
+      False Knight - atlas0 #0482_55: 49682536
+      False Knight - atlas0 #0482_56: -1952833755
+      False Knight - atlas0 #0482_57: -1727456893
+      False Knight - atlas0 #0482_58: -2021696125
+      False Knight - atlas0 #0482_59: -901317647
+      False Knight - atlas0 #0482_6: -1684292647
+      False Knight - atlas0 #0482_60: -42788262
+      False Knight - atlas0 #0482_61: -192566332
+      False Knight - atlas0 #0482_62: 674726431
+      False Knight - atlas0 #0482_63: 1304981156
+      False Knight - atlas0 #0482_64: 782372566
+      False Knight - atlas0 #0482_65: -565051458
+      False Knight - atlas0 #0482_66: -170551178
+      False Knight - atlas0 #0482_67: -796770073
+      False Knight - atlas0 #0482_68: 237878127
+      False Knight - atlas0 #0482_69: -2072484511
+      False Knight - atlas0 #0482_7: -350597566
+      False Knight - atlas0 #0482_70: -1197469700
+      False Knight - atlas0 #0482_71: -986971087
+      False Knight - atlas0 #0482_72: 1061069854
+      False Knight - atlas0 #0482_73: 1947239161
+      False Knight - atlas0 #0482_74: 1866386135
+      False Knight - atlas0 #0482_75: 1659321052
+      False Knight - atlas0 #0482_76: -250130708
+      False Knight - atlas0 #0482_77: 1199722976
+      False Knight - atlas0 #0482_78: -1597405261
+      False Knight - atlas0 #0482_79: 1176996619
+      False Knight - atlas0 #0482_8: -1315658529
+      False Knight - atlas0 #0482_80: -1132662585
+      False Knight - atlas0 #0482_81: -975597147
+      False Knight - atlas0 #0482_82: -1305246706
+      False Knight - atlas0 #0482_83: -1517336572
+      False Knight - atlas0 #0482_84: -1047633409
+      False Knight - atlas0 #0482_85: 1793619693
+      False Knight - atlas0 #0482_86: 228234483
+      False Knight - atlas0 #0482_87: 30107570
+      False Knight - atlas0 #0482_88: 1550279071
+      False Knight - atlas0 #0482_89: -1840714914
+      False Knight - atlas0 #0482_9: 547306192
+      False Knight - atlas0 #0482_90: -549831540
+      False Knight - atlas0 #0482_91: -1309957494
+      False Knight - atlas0 #0482_92: -1042193632
+      False Knight - atlas0 #0482_93: -694020271
+      False Knight - atlas0 #0482_94: 1401421925
+      False Knight - atlas0 #0482_95: -2024665955
+      False Knight - atlas0 #0482_96: 662695017
+      False Knight - atlas0 #0482_97: -31282324
+      False Knight - atlas0 #0482_98: 843920419
+      False Knight - atlas0 #0482_99: -644662995
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

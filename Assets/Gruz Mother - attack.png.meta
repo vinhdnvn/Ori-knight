@@ -1,0 +1,1020 @@
+fileFormatVersion: 2
+guid: 4800270ccf7b405418883d6372cd19f7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gruz Mother - attack_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1043
+        width: 139
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b1901291fceba4ab8cb369ea2ec049
+      internalID: 551335849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1056
+        width: 283
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1a95080f5e7014fa713b38a26f2d21
+      internalID: -976807414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_2
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1300
+        width: 134
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5be25244a272d1439228c8a543e052b
+      internalID: -391382215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 767
+        width: 144
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee767729d4e5b7478d4c0d408f44ea5
+      internalID: 384265850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_4
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 819
+        width: 310
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ee0b852dc01da4ba72cc910389f64a
+      internalID: 369667809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_5
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1030
+        width: 140
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f19f595099a874981ac2b697caf557
+      internalID: 239880341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_6
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 924
+        width: 227
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5236db8b6379e7441a9afa714b542736
+      internalID: -698798218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_7
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 479
+        width: 218
+        height: 637
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17be4e9909b23e45bb527b33ef0003b
+      internalID: -923645155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_8
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 539
+        width: 140
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8250abf9e9d55184f97332d602325002
+      internalID: -1355107923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_9
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 537
+        width: 134
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6318daf9f3a334f95c7c6fa30d7c8d
+      internalID: -1401594130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_10
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 784
+        width: 152
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11daddeb78df0da4cb9ffe73a9cf76ec
+      internalID: -1893382580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_11
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 727
+        width: 425
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f07850644ce2b47bf740d787ac527a
+      internalID: 1111858878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_12
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 630
+        width: 197
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08e6421e915b9941aa15c41fbc561b1
+      internalID: 2102023488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_13
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 711
+        width: 143
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9852a632d5ed1e4db226a389123c967
+      internalID: 542102528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_14
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 594
+        width: 325
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d815fb1ce7f0358498d9cbbb58456314
+      internalID: -37707009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_15
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 760
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e5dfe68cc177d4ca9009693bb6c00d
+      internalID: -2073693796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_16
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 587
+        width: 201
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9d5055caf0ab74fad94de612a9eedc
+      internalID: -60274283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 228
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855f03c1b04bcdf49b01d20c8b5f54d8
+      internalID: -1639582290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_18
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 404
+        width: 222
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d81c2b27d00cc84eb576de9cc42c2d8
+      internalID: 610111046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_19
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 552
+        width: 230
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9e8a83007938b4399801cfb1bd1498
+      internalID: 1693608477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_20
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 400
+        width: 374
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22cd3ef3e5afdf548aafb71834ec0bbb
+      internalID: 945216591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_21
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 139
+        width: 509
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105d21812a2ad0046bf1351eb6bd62b4
+      internalID: -1367022150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_22
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 175
+        width: 227
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191d67c9896c8a946a20841ed119afff
+      internalID: -1205642266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_23
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 226
+        width: 138
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb3a1b88cf5683439d71c2fc8e780f2
+      internalID: -354693345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_24
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 226
+        width: 140
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76ee4ef4fcd7304c80cce403c89f111
+      internalID: 1651710628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_25
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 212
+        width: 227
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d79bb1ea56d6b4cb67e0dd4cd4e856
+      internalID: -2020137715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_26
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 366
+        width: 224
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2ef839d0e06294989eb20ed65d2cc0
+      internalID: -210571051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_27
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 212
+        width: 221
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c893d63d9e9f9364c92598df580c02c7
+      internalID: -1632182900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_28
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 323
+        width: 208
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7dec58996fce92429c46a246a3edebd
+      internalID: 922782586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_29
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 324
+        width: 235
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b45332a67af0444d94f89bf6f46ae10
+      internalID: -1950875591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_30
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 293
+        width: 228
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e809cd6ae346a564bb9e21d4c0e22690
+      internalID: -1928942021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 305
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c200d69e18ba414ca9b850a6d1445fc
+      internalID: -1738061815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_32
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 0
+        width: 233
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f9986e39f24054085bfdfabb25b704
+      internalID: 698026843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_33
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 0
+        width: 230
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78cc9413575e0b243bba3f802e1c2b72
+      internalID: -209021245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_34
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 163
+        width: 223
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10051a76cfb2f9b468f5eda784d7aed0
+      internalID: -1376552265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_35
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 3
+        width: 219
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9381d91849640174bb6557758c73365b
+      internalID: 1441201542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_36
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 138
+        width: 228
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e7456fb8e7b074eb8d908cd3978af2
+      internalID: -1577608515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_37
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 0
+        width: 143
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ed730fa5b406f47adc1e9298c3808d
+      internalID: -1549001916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_38
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 3
+        width: 288
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e25f63a96af7254b84748e352e40b3f
+      internalID: -108500789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gruz Mother - attack_39
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 0
+        width: 613
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c8e85bdf5561e4d89742a9b72ad438
+      internalID: -1675159419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Gruz Mother - attack_0: 551335849
+      Gruz Mother - attack_1: -976807414
+      Gruz Mother - attack_10: -1893382580
+      Gruz Mother - attack_11: 1111858878
+      Gruz Mother - attack_12: 2102023488
+      Gruz Mother - attack_13: 542102528
+      Gruz Mother - attack_14: -37707009
+      Gruz Mother - attack_15: -2073693796
+      Gruz Mother - attack_16: -60274283
+      Gruz Mother - attack_17: -1639582290
+      Gruz Mother - attack_18: 610111046
+      Gruz Mother - attack_19: 1693608477
+      Gruz Mother - attack_2: -391382215
+      Gruz Mother - attack_20: 945216591
+      Gruz Mother - attack_21: -1367022150
+      Gruz Mother - attack_22: -1205642266
+      Gruz Mother - attack_23: -354693345
+      Gruz Mother - attack_24: 1651710628
+      Gruz Mother - attack_25: -2020137715
+      Gruz Mother - attack_26: -210571051
+      Gruz Mother - attack_27: -1632182900
+      Gruz Mother - attack_28: 922782586
+      Gruz Mother - attack_29: -1950875591
+      Gruz Mother - attack_3: 384265850
+      Gruz Mother - attack_30: -1928942021
+      Gruz Mother - attack_31: -1738061815
+      Gruz Mother - attack_32: 698026843
+      Gruz Mother - attack_33: -209021245
+      Gruz Mother - attack_34: -1376552265
+      Gruz Mother - attack_35: 1441201542
+      Gruz Mother - attack_36: -1577608515
+      Gruz Mother - attack_37: -1549001916
+      Gruz Mother - attack_38: -108500789
+      Gruz Mother - attack_39: -1675159419
+      Gruz Mother - attack_4: 369667809
+      Gruz Mother - attack_5: 239880341
+      Gruz Mother - attack_6: -698798218
+      Gruz Mother - attack_7: -923645155
+      Gruz Mother - attack_8: -1355107923
+      Gruz Mother - attack_9: -1401594130
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
