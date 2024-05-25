@@ -5,7 +5,7 @@ using UnityEngine;
 public class guzMother : MonoBehaviour
 {
 
-    // for Player 
+    // for Player
     [Header("Player")]
     [SerializeField] GameObject playerObject;
 
@@ -246,7 +246,9 @@ public class guzMother : MonoBehaviour
 
         Destroy(gameObject, 1f);
 
-
+        GameObject wall = GameObject.FindWithTag("Wall");
+        Debug.Log(wall);
+        Destroy(wall);
     }
 
     public void hurt(int damage)
