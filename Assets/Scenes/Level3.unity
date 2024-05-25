@@ -625,6 +625,11 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 1701969898617409398, guid: 3f189b4e844dd4c15bacde99d721494d,
         type: 3}
+      propertyPath: timeToHeal
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1701969898617409398, guid: 3f189b4e844dd4c15bacde99d721494d,
+        type: 3}
       propertyPath: WhiteSpirit
       value: 
       objectReference: {fileID: 8948477281030938887, guid: 083b5eaadaa064f4b853204bc9732f62,
@@ -944,7 +949,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 108.02, y: 2.24, z: -20}
-  m_LocalScale: {x: 1, y: 2.175, z: 1}
+  m_LocalScale: {x: 1.4375, y: 2.175, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 258356442}
