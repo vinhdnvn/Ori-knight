@@ -11,6 +11,8 @@ public class Menu : MonoBehaviour
         Debug.Log("New Game start !");
         PlayerPrefs.SetString("Milestone", "Spawn");
         PlayerPrefs.SetInt("UnlockRedSlash", 0);
+        PlayerPrefs.SetInt("UnlockPowerForBoss", 0);
+
         Debug.Log(PlayerPrefs.GetString("Milestone"));
         clickLoadButton();
     }
@@ -21,10 +23,17 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene(PlayerPrefs.GetString("Milestone"));
         Debug.Log(PlayerPrefs.GetString("Milestone"));
         Debug.Log(PlayerPrefs.GetInt("UnlockRedSlash"));
+        Debug.Log(PlayerPrefs.GetInt("UnlockPowerForBoss"));
     }
 
     public void clickQuitButton()
     {
         Application.Quit();
+    }
+
+    public void saveInventory()
+    {
+
+
     }
 }

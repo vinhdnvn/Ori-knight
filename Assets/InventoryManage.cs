@@ -7,6 +7,7 @@ public class InventoryManage : MonoBehaviour
 {
 
     [SerializeField] GameObject UnlockRedSlash;
+    [SerializeField] GameObject UnlockPowerForBoss;
 
 
     // image for red slash instance 
@@ -14,8 +15,10 @@ public class InventoryManage : MonoBehaviour
 
     private void Enable()
     {
+
         PlayerController playerController = GameObject.Find("Player").GetComponent<PlayerController>();
         Debug.Log(playerController.unlockRedSlash);
+        Debug.Log("Unlock powerforboss" + playerController.unlockPowerForBoss);
 
         // if in playercontroller unlockRedSlash is true then enable redSlash image
         if (playerController.unlockRedSlash == true)
@@ -25,6 +28,15 @@ public class InventoryManage : MonoBehaviour
         else
         {
             UnlockRedSlash.SetActive(false);
+        }
+        // for unlock power for boss
+        if (playerController.unlockPowerForBoss == true)
+        {
+            UnlockPowerForBoss.SetActive(true);
+        }
+        else
+        {
+            UnlockPowerForBoss.SetActive(false);
         }
 
     }
@@ -37,4 +49,7 @@ public class InventoryManage : MonoBehaviour
     {
         Enable(); // Gọi Enable() mỗi frame để đảm bảo cập nhật trạng thái hiển thị
     }
+
+
+
 }
