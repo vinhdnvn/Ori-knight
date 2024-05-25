@@ -28,6 +28,7 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene(PlayerPrefs.GetString("Milestone"));
         Debug.Log(PlayerPrefs.GetString("Milestone"));
         Debug.Log(PlayerPrefs.GetInt("UnlockRedSlash"));
+        Debug.Log(PlayerPrefs.GetInt("UnlockPowerForBoss"));
     }
 
     public void clickQuitButton()

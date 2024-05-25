@@ -48,6 +48,7 @@ public class PlayerController : MonoBehaviour
     public void UnlockPowerForBoss()
     {
         unlockPowerForBoss = true;
+        PlayerPrefs.SetInt("UnlockPowerForBoss", boolToInt(unlockPowerForBoss));
         // powerForBoss();
     }
 
@@ -160,6 +161,17 @@ public class PlayerController : MonoBehaviour
         {
             this.unlockWhiteSpirit = true;
         }
+        // checkItemPowerForBoss();
+        if (PlayerPrefs.HasKey("UnlockPowerForBoss") && PlayerPrefs.GetInt("UnlockPowerForBoss") == 1)
+        {
+            unlockPowerForBoss = true;
+        }
+        else
+        {
+            unlockPowerForBoss = false;
+        }
+
+
 
         Mana = mana;
         manaStorage.fillAmount = Mana;
@@ -964,4 +976,16 @@ public class PlayerController : MonoBehaviour
     //     sprintSpeed = 15.0f;
 
     // }
+
+    void checkItemPowerForBoss()
+    {
+        if (PlayerPrefs.HasKey("UnlockPowerForBoss") && PlayerPrefs.GetInt("UnlockPowerForBoss") == 1)
+        {
+            unlockPowerForBoss = true;
+        }
+        else
+        {
+            unlockPowerForBoss = false;
+        }
+    }
 }
