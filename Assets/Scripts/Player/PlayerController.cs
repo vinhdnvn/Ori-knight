@@ -11,15 +11,15 @@ public class PlayerController : MonoBehaviour
     // ======Healing=======
     public bool healing;
     float healTimer;
-    [SerializeField] float timeToHeal;
+    public float timeToHeal = 1f;
     // ======================
     // ==============Mana Settings =========
     [Header("Mana Settings")]
 
     [SerializeField] UnityEngine.UI.Image manaStorage;
-    [SerializeField] float mana = 3f;
+    public float mana = 8f;
     [SerializeField] float manaDrainSpeed = 0.2f;
-    [SerializeField] float manaGain = 0.1f;
+    [SerializeField] public float manaGain = 0.1f;
     [Space(5)]
     // ==========================
     // ===========Spell casting
@@ -35,6 +35,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float downSpellForce = 10; // desolate dive skill
 
     public bool unlockRedSlash;
+    public bool unlockPowerForBoss;
 
     public bool unlockTrippleJump;
 
@@ -42,6 +43,12 @@ public class PlayerController : MonoBehaviour
     {
         unlockRedSlash = true;
         PlayerPrefs.SetInt("UnlockRedSlash", boolToInt(unlockRedSlash));
+    }
+
+    public void UnlockPowerForBoss()
+    {
+        unlockPowerForBoss = true;
+        // powerForBoss();
     }
 
     public void UnlockTrippleJump()
@@ -75,6 +82,7 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] public ParticleSystem dustEffect;
 
+
     public int health;
     public float moveSpeed;
     public float jumpSpeed;
@@ -101,6 +109,7 @@ public class PlayerController : MonoBehaviour
     public GameObject attackUpEffect;
     public GameObject attackForwardEffect;
     public GameObject attackDownEffect;
+    public GameObject healingEffect;
 
     private bool _isGrounded;
     private bool _isClimb;
@@ -168,6 +177,7 @@ public class PlayerController : MonoBehaviour
             sprintControl();
             attackControl();
             Heal();
+
 
         }
         if (unlockRedSlash)
@@ -722,6 +732,7 @@ public class PlayerController : MonoBehaviour
             }
             else if (layerName == "Boss")
             {
+                Mana += manaGain;
                 guzMother guzMother = obj.GetComponent<guzMother>();
                 if (guzMother != null)
                 {
@@ -762,14 +773,20 @@ public class PlayerController : MonoBehaviour
     // function to Heal using Input.GetButton
     public void Heal()
     {
+
         if (Input.GetKey(KeyCode.Mouse1) && health < 5 && Mana > 0 && !_animator.GetBool("IsJump") && !_animator.GetBool("IsSprint")
         // and isGrounded
         )
         {
 
+
+
+            Debug.Log("Healing Effect is on");
+            healingEffect.SetActive(true);
             healing = true;
             healTimer += Time.deltaTime;
             Debug.Log("Is Healing");
+
             if (healTimer >= timeToHeal)
             {
                 health++;
@@ -780,6 +797,9 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
+            healingEffect.SetActive(false);
+            // healing effact off
+
             healing = false;
             healTimer = 0;
 
@@ -902,7 +922,7 @@ public class PlayerController : MonoBehaviour
 
     void CreateDust()
     {
-        // Debug.Log("Creating dust");
+        Debug.Log("Creating dust");
         dustEffect.Play();
     }
     void StopDust()
@@ -913,20 +933,9 @@ public class PlayerController : MonoBehaviour
 
     void ToggleMap()
     {
-        // if (isMapOpen)
-        // {
-        //     Debug.Log("Map is open");
-        //     mapHandler.SetActive(true);
-
-        // }
-        // else
-        // {
-        //     Debug.Log("Map is close");
-        //     mapHandler.SetActive(false);
-
-        // }
 
     }
+
 
     int boolToInt(bool val)
     {
@@ -943,4 +952,16 @@ public class PlayerController : MonoBehaviour
         else
             return false;
     }
+
+    // void powerForBoss()
+    // {
+    //     // unlockRedSlash = true;
+    //     // unlockTrippleJump = true;
+    //     // unlockWhiteHole = true;
+    //     // unlockWhiteSpirit = true;
+    //     // set healtimer
+    //     healTimer = 0.3f;
+    //     sprintSpeed = 15.0f;
+
+    // }
 }
