@@ -124,6 +124,7 @@ public class GunnerController : EnemyController
         _rigidbody.AddForce(newForce, ForceMode2D.Impulse);
 
         StartCoroutine(fadeCoroutine());
+
     }
 
     private IEnumerator fadeCoroutine()

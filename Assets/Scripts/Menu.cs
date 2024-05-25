@@ -10,7 +10,14 @@ public class Menu : MonoBehaviour
     {
         Debug.Log("New Game start !");
         PlayerPrefs.SetString("Milestone", "Spawn");
+
         PlayerPrefs.SetInt("UnlockRedSlash", 0);
+        PlayerPrefs.SetInt("UnlockTrippleJump", 0);
+        PlayerPrefs.SetInt("UnlockWhiteHole", 0);
+        PlayerPrefs.SetInt("UnlockWhiteSpirit", 0);
+
+        PlayerPrefs.SetInt("active", 1);
+        PlayerPrefs.SetFloat("timeCounter", 0);
         Debug.Log(PlayerPrefs.GetString("Milestone"));
         clickLoadButton();
     }
@@ -26,5 +33,10 @@ public class Menu : MonoBehaviour
     public void clickQuitButton()
     {
         Application.Quit();
+    }
+
+    public void ClickTryAgain()
+    {
+        clickStartButton();
     }
 }

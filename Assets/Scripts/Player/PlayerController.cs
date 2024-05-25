@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float projectileSpeed = 10f;
     [SerializeField] float projectileDamage = 1f;
     [SerializeField] float projectileManaCost = 0.2f;
-    [SerializeField] float downSpellForce = 10; // desolate dive skill 
+    [SerializeField] float downSpellForce = 10; // desolate dive skill
 
     public bool unlockRedSlash;
 
@@ -42,30 +42,27 @@ public class PlayerController : MonoBehaviour
     {
         unlockRedSlash = true;
         PlayerPrefs.SetInt("UnlockRedSlash", boolToInt(unlockRedSlash));
-
-
-
     }
 
     public void UnlockTrippleJump()
     {
         unlockTrippleJump = true;
-        // PlayerPrefs.SetInt("UnlockTrippleJump", boolToInt(unlockTrippleJump));
+        PlayerPrefs.SetInt("UnlockTrippleJump", boolToInt(unlockTrippleJump));
     }
 
     public bool unlockWhiteHole;
     public void UnlockWhiteHole()
     {
         unlockWhiteHole = true;
+        PlayerPrefs.SetInt("UnlockWhiteHole", boolToInt(unlockWhiteHole));
     }
 
     public bool unlockWhiteSpirit;
     public void UnlockWhiteSpirit()
     {
         unlockWhiteSpirit = true;
+        PlayerPrefs.SetInt("UnlockWhiteSpirit", boolToInt(unlockWhiteSpirit));
     }
-
-
 
     [Space(5)]
 
@@ -135,14 +132,24 @@ public class PlayerController : MonoBehaviour
         _spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         _boxCollider = gameObject.GetComponent<BoxCollider2D>();
 
-
-        if (PlayerPrefs.HasKey("UnlockRedSlash") && PlayerPrefs.GetInt("UnlockRedSlash") == 1)
+        if (intToBool(PlayerPrefs.GetInt("UnlockTrippleJump")))
         {
-            unlockRedSlash = true;
+            this.unlockTrippleJump = true;
         }
-        else
+
+        if (intToBool(PlayerPrefs.GetInt("UnlockRedSlash")))
         {
-            unlockRedSlash = false;
+            this.unlockRedSlash = true;
+        }
+
+        if (intToBool(PlayerPrefs.GetInt("UnlockWhiteHole")))
+        {
+            this.unlockWhiteHole = true;
+        }
+
+        if (intToBool(PlayerPrefs.GetInt("UnlockWhiteSpirit")))
+        {
+            this.unlockWhiteSpirit = true;
         }
 
         Mana = mana;
@@ -382,7 +389,7 @@ public class PlayerController : MonoBehaviour
 
         if (!_isClimb)
         {
-            // the sprite itself is inversed 
+            // the sprite itself is inversed
             float moveDirection = -transform.localScale.x * horizontalMovement;
 
             if (moveDirection < 0)
