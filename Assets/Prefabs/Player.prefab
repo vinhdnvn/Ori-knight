@@ -459,14 +459,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healing: 0
   timeToHeal: 0
+  manaStorage: {fileID: 0}
   mana: 3
   manaDrainSpeed: 0.2
   manaGain: 0.1
   isCasting: 0
-  playerProjectilePrefab: {fileID: 0}
+  redSlash: {fileID: 0}
+  WhiteHole: {fileID: 0}
+  WhiteSpirit: {fileID: 0}
   projectileSpeed: 1
   projectileDamage: 1
   projectileManaCost: 0.2
+  downSpellForce: 10
+  unlockRedSlash: 0
+  unlockPowerForBoss: 0
+  unlockTrippleJump: 0
+  unlockWhiteHole: 0
+  unlockWhiteSpirit: 0
+  mapHandler: {fileID: 0}
+  orangeBlood: {fileID: 0}
+  dustEffect: {fileID: 0}
   health: 5
   moveSpeed: 5
   jumpSpeed: 7
@@ -489,6 +501,8 @@ MonoBehaviour:
   attackUpEffect: {fileID: 1646975930611572}
   attackForwardEffect: {fileID: 1410729049005502}
   attackDownEffect: {fileID: 1941861638662376}
+  healingEffect: {fileID: 8273610835224426424, guid: b15eb50774688c64f8e94cc9987b1bb9,
+    type: 3}
 --- !u!1 &1941861638662376
 GameObject:
   m_ObjectHideFlags: 0
