@@ -839,32 +839,35 @@ public class PlayerController : MonoBehaviour
     void RedSlashSpell()
     {
         if (Mana >= projectileManaCost)
-
-
         {
-            // get the position current of player
-
-
-
-
             GameObject redSlashInstance = Instantiate(redSlash, transform.position, Quaternion.identity);
 
+            if (transform.localScale.x < 0)
+            {
+                redSlashInstance.transform.rotation = Quaternion.Euler(0, -200, 0);
 
-            // // take the position current of player
+            }
+            else if (transform.localScale.x > 0)
+            {
+                redSlashInstance.transform.rotation = Quaternion.Euler(0, 0, 0);
+            }
+
+            // Đặt hướng của đòn tấn công dựa trên hướng hiện tại của người chơi
             Vector2 direction;
-            direction.x = -transform.localScale.x;
+            direction.x = -transform.localScale.x; // Hướng của đòn tấn công
             direction.y = 0;
             redSlashInstance.GetComponent<RedSlash>().direction = direction;
 
+            // Lấy thành phần RedSlash từ instance vừa tạo
             RedSlash REDSLASH = redSlashInstance.GetComponent<RedSlash>();
 
-            REDSLASH.speed = projectileSpeed;
-            REDSLASH.damage = (int)projectileDamage;
-            // set life time
-            REDSLASH.lifeTime = 3f;
+            // Thiết lập các thuộc tính của đòn tấn công
+            REDSLASH.speed = projectileSpeed;       // Tốc độ di chuyển của đòn tấn công
+            REDSLASH.damage = (int)projectileDamage; // Sát thương gây ra
+            REDSLASH.lifeTime = 3f;                 // Thời gian tồn tại của đòn tấn công
 
+            // Kích hoạt đòn tấn công
             REDSLASH.trigger();
-
 
             Mana -= projectileManaCost;
         }
@@ -872,13 +875,6 @@ public class PlayerController : MonoBehaviour
         {
             return;
         }
-
-
-
-
-
-
-
     }
 
     void WhiteHoleSpell()
