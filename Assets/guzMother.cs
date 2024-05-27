@@ -278,30 +278,35 @@ public class guzMother : MonoBehaviour
         }
 
 
-        //  boss thụt lùi khi nhận dame
+        //  knockback guzMother a little bit
+        Vector2 newVelocity = hurtRecoil;
+        newVelocity.x *= _transform.localScale.x;
+
+        bossRb.velocity = newVelocity;
 
 
-        StartCoroutine(hurtCoroutine());
+
+        // StartCoroutine(hurtCoroutine());
     }
-    private IEnumerator hurtCoroutine()
-    {
-        // Lưu trữ vận tốc hiện tại của boss
-        Vector2 currentVelocity = bossRb.velocity;
+    // private IEnumerator hurtCoroutine()
+    // {
+    //     // // Lưu trữ vận tốc hiện tại của boss
+    //     // Vector2 currentVelocity = bossRb.velocity;
 
-        // Tính toán hướng thụt lùi ngược với hướng di chuyển hiện tại
-        Vector2 recoilDirection = -currentVelocity.normalized;
+    //     // // Tính toán hướng thụt lùi ngược với hướng di chuyển hiện tại
+    //     // Vector2 recoilDirection = -currentVelocity.normalized;
 
-        // Thực hiện thụt lùi trong khoảng thời gian hurtRecoilTime
-        float timer = 0f;
-        while (timer < hurtRecoilTime)
-        {
-            bossRb.velocity = recoilDirection * hurtRecoil.magnitude;
-            timer += Time.deltaTime;
-            yield return null;
-        }
-        yield return new WaitForSeconds(hurtRecoilTime);
+    //     // // Thực hiện thụt lùi trong khoảng thời gian hurtRecoilTime
+    //     // float timer = 0f;
+    //     // while (timer < hurtRecoilTime)
+    //     // {
+    //     //     bossRb.velocity = recoilDirection * hurtRecoil.magnitude;
+    //     //     timer += Time.deltaTime;
+    //     //     yield return null;
+    //     // }
+    //     // yield return new WaitForSeconds(hurtRecoilTime);
 
-        bossRb.velocity = Vector2.zero;
+    //     // bossRb.velocity = Vector2.zero;
 
-    }
+    // }
 }

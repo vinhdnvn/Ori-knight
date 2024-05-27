@@ -203,13 +203,9 @@ public class PlayerController : MonoBehaviour
 
         footstepTimer = footstepInterval;
         // checkItemPowerForBoss();
-        if (PlayerPrefs.HasKey("UnlockPowerForBoss") && PlayerPrefs.GetInt("UnlockPowerForBoss") == 1)
+        if (intToBool(PlayerPrefs.GetInt("UnlockPowerForBoss")))
         {
             unlockPowerForBoss = true;
-        }
-        else
-        {
-            unlockPowerForBoss = false;
         }
 
 
@@ -825,6 +821,8 @@ public class PlayerController : MonoBehaviour
                 {
                     Debug.Log("guzMother is detected");
                     guzMother.hurt(1);
+                    GameObject _orangeBlood = Instantiate(orangeBlood, obj.transform.position, Quaternion.identity);
+                    Destroy(_orangeBlood, 2.5f);
                 }
                 else
                 {

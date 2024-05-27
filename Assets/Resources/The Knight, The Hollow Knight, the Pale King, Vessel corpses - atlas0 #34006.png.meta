@@ -1,0 +1,2243 @@
+fileFormatVersion: 2
+guid: 0168e7324950cee48bbfb74aefccb456
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1492
+        width: 125
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2406181a952e83499d956dfb0a4cf7b
+      internalID: 1100886016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1512
+        width: 62
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e68487edd9a0c44b91c013708da1df
+      internalID: 932233560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_2
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1443
+        width: 66
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794b01d4bbf8b7549a2845cb1a5d4d32
+      internalID: -137376380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1348
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb6e865cb57d2646a21843111ef9be4
+      internalID: 580601680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_4
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1370
+        width: 59
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c15a3c35ed2d4044bf8a8816386d391
+      internalID: -1817209030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_5
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1300
+        width: 63
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b065a3b8049024e91983649317fec8
+      internalID: -489964201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_6
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1398
+        width: 61
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c22360aa5920064fae8dad2d9d45746
+      internalID: 1189866241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_7
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1344
+        width: 85
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae090a757a75a042a72193456a18f44
+      internalID: 1103081668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1210
+        width: 62
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7e6952988da17418965f4922674697
+      internalID: -900025217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_9
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1067
+        width: 73
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641c2d3c72fed5348b3ec68d4e323ca4
+      internalID: 1244611757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_10
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1233
+        width: 65
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e8b810554697644b34979046c66566
+      internalID: -1594985023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_11
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1258
+        width: 66
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0332970bb646fd45b6b56bc0d87f9b7
+      internalID: 1067242265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_12
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1201
+        width: 194
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51432d409dd235942bb93adbfa448f3e
+      internalID: 2058633213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_13
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 1310
+        width: 120
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba34580b9ba08ae4b96e6ed12107a013
+      internalID: -457104429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_14
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1212
+        width: 61
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe19f40cdfbbc4429db13fdb2cee3d4
+      internalID: -2107348553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_15
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1239
+        width: 62
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d8ec6f0ea63454fad275f1b7c928e9
+      internalID: 942926028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_16
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 1272
+        width: 80
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d8b091743d91d4eb9fd451d8677d36
+      internalID: 204070682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_17
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1240
+        width: 80
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb058e9c32efd046bcdf2213f01e6f3
+      internalID: 2109884107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1256
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915dee5ebc5b991448f073cafbc424a7
+      internalID: -691281611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_19
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1152
+        width: 63
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3e2b2b29420f347a0590e202f0f803
+      internalID: 276067136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_20
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 1194
+        width: 81
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc3d776be93b8a4cbf76205fcd0b3a1
+      internalID: 705253890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 941
+        width: 74
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d956df1caa55546875cd9143413341
+      internalID: 956958345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_22
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1095
+        width: 64
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60983e12b14df9419a650667aa85650
+      internalID: 695770012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_23
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1140
+        width: 81
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e85b9fcdeb0fb4681e35fcfe8fa9c5
+      internalID: -1910666766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_24
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1084
+        width: 204
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e360921badb1fe1429e89ca6d979cac6
+      internalID: 294248795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_25
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1076
+        width: 63
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6484f0eb4c0096479c84fcd06de83c3
+      internalID: -1312465844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_26
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1100
+        width: 66
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831bc52dc01426240b3924717fa2c47e
+      internalID: 1993394707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_27
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 1053
+        width: 62
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7b9de4754a5084588db44193fab1e0
+      internalID: 1009040418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_28
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1168
+        width: 88
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db21a93b17c2b7044ac3d806162a0d03
+      internalID: -1807379555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_29
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 1172
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be06b81f372e26e4382ec333ecde24d7
+      internalID: -944728979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_30
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1142
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0cf0478db7b5142bd734f0edc48adc
+      internalID: -1073444968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_31
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1047
+        width: 86
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0049b45aad57a46baf222a7ce35639
+      internalID: 686242670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_32
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 961
+        width: 180
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c208a74ff66aaa4bbb8750953201596
+      internalID: -210746531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_33
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1089
+        width: 95
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b192c71f8ea0847a78788294122c02
+      internalID: -1142884168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_34
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 927
+        width: 72
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1f1da3fd3daea4dab3bf38417be5d0
+      internalID: 935335089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_35
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 953
+        width: 69
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8422340dcbf5fe4395f803b7d4885ac
+      internalID: 1355287175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_36
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 763
+        width: 78
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18dcb5c3a218c44da7daf6923b456a9
+      internalID: -1321752053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_37
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1020
+        width: 82
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed049e2a8bee5c439500f74d792b9eb
+      internalID: -887912587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_38
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 979
+        width: 96
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af25bd940fa29741993c833582b522f
+      internalID: -721358593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_39
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1015
+        width: 112
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bdf0f195cd98384a93219ad8606eec7
+      internalID: -1061050653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_40
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 961
+        width: 79
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7d667174bbe4c41a89fcf5515320a5
+      internalID: -1339762854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_41
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 968
+        width: 61
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ca2fe5a05e1f34ea5cd7894f89d195
+      internalID: -1099609394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_42
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 817
+        width: 112
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cd3fd202f360f4d858d1403697f2be
+      internalID: -1654669588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_43
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 895
+        width: 80
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6aa80cd1370af4e8d30d99d61ed894
+      internalID: -1717885751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_44
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 912
+        width: 105
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc7a3cd8f92b3844af23a9438b57f48
+      internalID: -1450693612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_45
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1014
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd6af0d76d261142be062002716fdeb
+      internalID: -1657495176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 799
+        width: 79
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229abeddec3e0514aa6705ecaa5e2105
+      internalID: -2021041572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_47
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 781
+        width: 71
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0295d73714f8b43bce834c82d44ed3
+      internalID: 2009426257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_48
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 809
+        width: 79
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b49d67c8beb374aa37bc33af8ff4cb
+      internalID: 1394365032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_49
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 750
+        width: 76
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c07c50166cdfe43b6dbd12a5d93cbd
+      internalID: -308414672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_50
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 848
+        width: 80
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6e1d9a55dc0e543bbb68e43c3714b7
+      internalID: 770266502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_51
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 816
+        width: 111
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac54fcd7b0cc8d64bb7da4b340931136
+      internalID: 778079538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_52
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 816
+        width: 63
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c451bc0eb7cb63044bd38678430c59f3
+      internalID: -2078707785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_53
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 877
+        width: 100
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eea37d02bb27fe4081f4bafb23bfffe
+      internalID: 1324099261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_54
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 821
+        width: 64
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25854f090b80c074f8a8dc3ead43b0f0
+      internalID: -309146653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 668
+        width: 89
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1268b60599bb974794e381c52b16839
+      internalID: 781056581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_56
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 636
+        width: 65
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe94e38756154c4392bf2e825079539
+      internalID: -1171730857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_57
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 667
+        width: 76
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77ea2a80d6e8c445b05fb56cee76286
+      internalID: -156332189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_58
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 721
+        width: 89
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2a8e50a3fc0a34caa62b5478bfd680
+      internalID: 732276234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_59
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 728
+        width: 121
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c62c0ef801ae5345ac20811e65088b0
+      internalID: -260069890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_60
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 728
+        width: 49
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f4e15e7e778d647990e27af6b9cf59
+      internalID: 624894572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_61
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 779
+        width: 107
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9dffc6514c181a40bdcbb987ad38a65
+      internalID: -2097263428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_62
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 544
+        width: 168
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe81f581bb745c649a9f9a2968993957
+      internalID: -1490922917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_63
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 746
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe262ef62fadd414cb483144c49b44f4
+      internalID: -579051679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_64
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 462
+        width: 108
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b820e8c34d70a5f4f936b92d1e76766d
+      internalID: -1076926111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_65
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 605
+        width: 63
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5e5bcd7d6c9ce49a6793465fc0cd6e
+      internalID: -2003599286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_66
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 602
+        width: 100
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4bc4daca490fc24d9c7e6f3e687d2de
+      internalID: 1618854707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_67
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 490
+        width: 99
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a52c6d3f2206c47b1992e35f279606
+      internalID: 491773187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_68
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 490
+        width: 63
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1122aa0209ee03d409e5e738d87595d2
+      internalID: -2140950744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_69
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 539
+        width: 86
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fa2598a72b63f4c9550af3e8ce5f2e
+      internalID: 1330495420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_70
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 460
+        width: 68
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ade7e46bbe0746468c6cf453baf6a68
+      internalID: 2046738236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_71
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 564
+        width: 92
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d47e474160246cb4e862d25523d33aaf
+      internalID: -1723956357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_72
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 453
+        width: 158
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4631a8b2f9571714d9a4268eaa843336
+      internalID: 93412160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_73
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 392
+        width: 89
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353750a70225bfc408f4936765707879
+      internalID: 1079319161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_74
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 486
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b4791410ab62f4290a0688d27559ff
+      internalID: -976088757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_75
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 365
+        width: 103
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d5567172d89af4aab0c6a680b13576
+      internalID: 1587056444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_76
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 394
+        width: 103
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c9723eea038034aa7b07afc135d182
+      internalID: 1971666269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_77
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 268
+        width: 168
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f5790273711a340b65df62a7efafb0
+      internalID: 789898406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_78
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 341
+        width: 88
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46cd7450eb14fe4b86abe03163d2f74
+      internalID: 617436016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_79
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 186
+        width: 157
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7095db7e3404a7641853773c2a1b0672
+      internalID: -1569143097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_80
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 186
+        width: 96
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c05afc20d30da44d93ff1d5a124ea8d
+      internalID: -715137421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_81
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 370
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f62330aac5a3c04d9cf774dae17471f
+      internalID: -724933132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_82
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 182
+        width: 176
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243191b0bb6fb904498139d9bd4fcb94
+      internalID: 1944897150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_83
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 182
+        width: 93
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48c62a8b3771ce419b5419501e9ead8
+      internalID: -1260013260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 333
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f860d6efae309a41823b69588ffec58
+      internalID: -978787458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_85
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 188
+        width: 178
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6cac7de29e019449a894950f10d2449
+      internalID: -1040740133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_86
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 323
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618aaf7b5c8ae84409e2f9f2b5b49ef8
+      internalID: -1515735784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_87
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 270
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fff1504192b1f24bb462ba6daa517cb
+      internalID: -1733947842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 271
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22710ff84c20d5243a8a92d272aa4d08
+      internalID: -1698078810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_89
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 276
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ceae12915d5f7488a4ac5027d5e0f7
+      internalID: -1073562332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_90
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 0
+        width: 272
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e280f6146c133c4199a0bc5cc0b6e44
+      internalID: 123088028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0
+        #34006_91
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 0
+        width: 178
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d51076365f57e4eb344d1d809a3b88
+      internalID: -1534940575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_0: 1100886016
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_1: 932233560
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_10: -1594985023
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_11: 1067242265
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_12: 2058633213
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_13: -457104429
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_14: -2107348553
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_15: 942926028
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_16: 204070682
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_17: 2109884107
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_18: -691281611
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_19: 276067136
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_2: -137376380
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_20: 705253890
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_21: 956958345
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_22: 695770012
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_23: -1910666766
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_24: 294248795
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_25: -1312465844
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_26: 1993394707
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_27: 1009040418
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_28: -1807379555
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_29: -944728979
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_3: 580601680
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_30: -1073444968
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_31: 686242670
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_32: -210746531
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_33: -1142884168
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_34: 935335089
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_35: 1355287175
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_36: -1321752053
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_37: -887912587
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_38: -721358593
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_39: -1061050653
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_4: -1817209030
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_40: -1339762854
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_41: -1099609394
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_42: -1654669588
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_43: -1717885751
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_44: -1450693612
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_45: -1657495176
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_46: -2021041572
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_47: 2009426257
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_48: 1394365032
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_49: -308414672
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_5: -489964201
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_50: 770266502
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_51: 778079538
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_52: -2078707785
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_53: 1324099261
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_54: -309146653
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_55: 781056581
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_56: -1171730857
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_57: -156332189
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_58: 732276234
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_59: -260069890
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_6: 1189866241
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_60: 624894572
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_61: -2097263428
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_62: -1490922917
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_63: -579051679
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_64: -1076926111
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_65: -2003599286
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_66: 1618854707
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_67: 491773187
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_68: -2140950744
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_69: 1330495420
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_7: 1103081668
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_70: 2046738236
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_71: -1723956357
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_72: 93412160
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_73: 1079319161
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_74: -976088757
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_75: 1587056444
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_76: 1971666269
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_77: 789898406
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_78: 617436016
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_79: -1569143097
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_8: -900025217
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_80: -715137421
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_81: -724933132
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_82: 1944897150
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_83: -1260013260
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_84: -978787458
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_85: -1040740133
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_86: -1515735784
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_87: -1733947842
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_88: -1698078810
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_89: -1073562332
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_9: 1244611757
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_90: 123088028
+      The Knight, The Hollow Knight, the Pale King, Vessel corpses - atlas0 #34006_91: -1534940575
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
