@@ -932,6 +932,24 @@ public class PlayerController : MonoBehaviour
             direction.y = 0;
             redSlashInstance.GetComponent<RedSlash>().direction = direction;
 
+            // make the slash right way with sight of player
+            if (transform.localScale.x < 0)
+            {
+                Vector3 newScale;
+                newScale.x = -1;
+                newScale.y = 1;
+                newScale.z = 1;
+                redSlashInstance.transform.localScale = newScale;
+            }
+            else
+            {
+                Vector3 newScale;
+                newScale.x = 1;
+                newScale.y = 1;
+                newScale.z = 1;
+                redSlashInstance.transform.localScale = newScale;
+            }
+
             RedSlash REDSLASH = redSlashInstance.GetComponent<RedSlash>();
 
             REDSLASH.speed = projectileSpeed;

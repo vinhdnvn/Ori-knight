@@ -15,6 +15,7 @@ public class Menu : MonoBehaviour
         PlayerPrefs.SetInt("UnlockTrippleJump", 0);
         PlayerPrefs.SetInt("UnlockWhiteHole", 0);
         PlayerPrefs.SetInt("UnlockWhiteSpirit", 0);
+        PlayerPrefs.SetInt("UnlockPowerForBoss", 0);
 
         PlayerPrefs.SetInt("active", 1);
         PlayerPrefs.SetFloat("timeCounter", 0);
