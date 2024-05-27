@@ -13,6 +13,26 @@ public class PlayerController : MonoBehaviour
     float healTimer;
     public float timeToHeal = 1f;
     // ======================
+    [Header("Audio Settings")]
+    [SerializeField] private AudioClip jumpSound;
+    [SerializeField] public AudioClip dashSound;
+    [SerializeField] public AudioClip attackSound;
+    [SerializeField] public AudioClip wallJumpSound;
+    [SerializeField] public AudioClip walkSound;
+    [SerializeField] public AudioClip hitSound;
+    [SerializeField] public AudioClip redSlashSound;
+
+    [SerializeField] public AudioClip pickUpSound;
+
+    // background sound
+    [SerializeField] public AudioClip backgroundSound;
+
+    private AudioSource audioSource;  // Biến cho AudioSource
+    private bool isJumpingSoundPlayed = false;  // Biến để kiểm tra trạng thái âm thanh nhảy
+
+    private float footstepTimer = 0f;  // Timer for footstep sound
+    private float footstepInterval = 0.5f;  // Interval between footstep sounds
+    private bool isPlayingFootstepSound = false;
     // ==============Mana Settings =========
     [Header("Mana Settings")]
 
@@ -42,12 +62,14 @@ public class PlayerController : MonoBehaviour
     public void UnlockRedSlash()
     {
         unlockRedSlash = true;
+        audioSource.PlayOneShot(pickUpSound);
         PlayerPrefs.SetInt("UnlockRedSlash", boolToInt(unlockRedSlash));
     }
 
     public void UnlockPowerForBoss()
     {
         unlockPowerForBoss = true;
+        audioSource.PlayOneShot(pickUpSound);
         PlayerPrefs.SetInt("UnlockPowerForBoss", boolToInt(unlockPowerForBoss));
         // powerForBoss();
     }
@@ -55,6 +77,7 @@ public class PlayerController : MonoBehaviour
     public void UnlockTrippleJump()
     {
         unlockTrippleJump = true;
+        audioSource.PlayOneShot(pickUpSound);
         PlayerPrefs.SetInt("UnlockTrippleJump", boolToInt(unlockTrippleJump));
     }
 
@@ -62,6 +85,7 @@ public class PlayerController : MonoBehaviour
     public void UnlockWhiteHole()
     {
         unlockWhiteHole = true;
+        audioSource.PlayOneShot(pickUpSound);
         PlayerPrefs.SetInt("UnlockWhiteHole", boolToInt(unlockWhiteHole));
     }
 
@@ -69,6 +93,7 @@ public class PlayerController : MonoBehaviour
     public void UnlockWhiteSpirit()
     {
         unlockWhiteSpirit = true;
+        audioSource.PlayOneShot(pickUpSound);
         PlayerPrefs.SetInt("UnlockWhiteSpirit", boolToInt(unlockWhiteSpirit));
     }
 
@@ -142,6 +167,20 @@ public class PlayerController : MonoBehaviour
         _spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         _boxCollider = gameObject.GetComponent<BoxCollider2D>();
 
+        audioSource = gameObject.GetComponent<AudioSource>();
+
+
+        // play background sound with loop "backgroundSound" with volumn 0.5f
+        // audioSource.clip = backgroundSound;
+        // audioSource.loop = true;
+        // audioSource.volume = 0.5f;
+        // audioSource.Play();
+
+        audioSource.PlayOneShot(backgroundSound, 0.5f);
+
+
+
+
         if (intToBool(PlayerPrefs.GetInt("UnlockTrippleJump")))
         {
             this.unlockTrippleJump = true;
@@ -161,6 +200,8 @@ public class PlayerController : MonoBehaviour
         {
             this.unlockWhiteSpirit = true;
         }
+
+        footstepTimer = footstepInterval;
         // checkItemPowerForBoss();
         if (PlayerPrefs.HasKey("UnlockPowerForBoss") && PlayerPrefs.GetInt("UnlockPowerForBoss") == 1)
         {
@@ -206,6 +247,17 @@ public class PlayerController : MonoBehaviour
             isMapOpen = !isMapOpen;
             ToggleMap();
         }
+
+        // if player grounded then turn off sound Jump state PLayed
+        if (_isGrounded)
+        {
+            isJumpingSoundPlayed = false;
+        }
+
+
+
+
+
 
 
 
@@ -403,6 +455,8 @@ public class PlayerController : MonoBehaviour
         // calculate movement
         float horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed;
 
+
+
         // set velocity
         Vector2 newVelocity;
         newVelocity.x = horizontalMovement;
@@ -413,6 +467,9 @@ public class PlayerController : MonoBehaviour
         {
             // the sprite itself is inversed
             float moveDirection = -transform.localScale.x * horizontalMovement;
+
+
+
 
             if (moveDirection < 0)
             {
@@ -438,6 +495,8 @@ public class PlayerController : MonoBehaviour
 
 
             }
+
+
         }
 
         // stop
@@ -490,7 +549,10 @@ public class PlayerController : MonoBehaviour
     private void attackControl()
     {
         if (Input.GetKeyDown(KeyCode.J) && !_isClimb && _isAttackable)
+        {
+            audioSource.PlayOneShot(attackSound);
             attack();
+        }
     }
 
     private void die()
@@ -573,6 +635,12 @@ public class PlayerController : MonoBehaviour
         {
             _animator.SetTrigger("IsJumpFirst");
         }
+
+
+
+        audioSource.PlayOneShot(jumpSound);
+        isJumpingSoundPlayed = true;
+
     }
 
 
@@ -587,8 +655,11 @@ public class PlayerController : MonoBehaviour
         _animator.SetTrigger("IsClimbJump");
         _animator.SetTrigger("IsJumpFirst");
 
+        audioSource.PlayOneShot(wallJumpSound);
+
         _isInputEnabled = false;
         StartCoroutine(climbJumpCoroutine(_climbJumpDelay));
+
     }
 
     private IEnumerator climbJumpCoroutine(float delay)
@@ -640,6 +711,8 @@ public class PlayerController : MonoBehaviour
 
             transform.localScale = newScale;
         }
+
+        audioSource.PlayOneShot(dashSound);
 
         _animator.SetTrigger("IsSprint");
         StartCoroutine(sprintCoroutine(sprintTime, sprintInterval));
@@ -739,6 +812,8 @@ public class PlayerController : MonoBehaviour
                 GameObject _orangeBlood = Instantiate(orangeBlood, obj.transform.position, Quaternion.identity);
                 Destroy(_orangeBlood, 2.5f);
 
+                audioSource.PlayOneShot(hitSound);
+
 
 
             }
@@ -755,6 +830,7 @@ public class PlayerController : MonoBehaviour
                 {
                     Debug.Log("guzMother is null");
                 }
+                audioSource.PlayOneShot(hitSound);
             }
             else if (layerName == "Projectile")
             {
@@ -846,7 +922,7 @@ public class PlayerController : MonoBehaviour
 
 
 
-
+            audioSource.PlayOneShot(redSlashSound);
             GameObject redSlashInstance = Instantiate(redSlash, transform.position, Quaternion.identity);
 
 
