@@ -825,6 +825,8 @@ public class PlayerController : MonoBehaviour
                 {
                     Debug.Log("guzMother is detected");
                     guzMother.hurt(1);
+                    GameObject _orangeBlood = Instantiate(orangeBlood, obj.transform.position, Quaternion.identity);
+                    Destroy(_orangeBlood, 2.5f);
                 }
                 else
                 {
