@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class guzMother : MonoBehaviour
 {
+    private AudioSource audioSource;
+    [SerializeField] private AudioClip wallTouchSound;
+    [SerializeField] private AudioClip hurtSound;
+    [SerializeField] private AudioClip dieSound;
 
     // for Player
     [Header("Player")]
@@ -60,6 +64,8 @@ public class guzMother : MonoBehaviour
 
         _transform = gameObject.GetComponent<Transform>();
 
+        audioSource = GetComponent<AudioSource>();
+
 
 
     }
@@ -77,6 +83,11 @@ public class guzMother : MonoBehaviour
         {
             Debug.Log("Space key pressed");
             AttackPlayer();
+        }
+
+        if (isTouchingWall || isTouchingUp)
+        {
+            audioSource.PlayOneShot(wallTouchSound);
         }
 
 
@@ -246,6 +257,11 @@ public class guzMother : MonoBehaviour
 
         Destroy(gameObject, 1f);
 
+        audioSource.PlayOneShot(dieSound);
+
+
+
+
         GameObject wall = GameObject.FindWithTag("Wall");
         Debug.Log(wall);
         Destroy(wall);
@@ -253,6 +269,7 @@ public class guzMother : MonoBehaviour
 
     public void hurt(int damage)
     {
+        audioSource.PlayOneShot(hurtSound);
         health = Mathf.Max(health - damage, 0);
         if (health == 0)
         {
