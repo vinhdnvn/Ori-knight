@@ -5,6 +5,7 @@ using UnityEngine;
 public class UnlockTrippleJump : MonoBehaviour
 {
     [SerializeField] GameObject particle;
+    // [SerializeField] UnlockSkill unlockUI;
     public bool isUsed;
     // create on collision damage to enemy and destroy when hit
     private void OnTriggerEnter2D(Collider2D collision)
@@ -29,6 +30,9 @@ public class UnlockTrippleJump : MonoBehaviour
             isUsed = true;
             collision.collider.GetComponent<PlayerController>().UnlockTrippleJump();
             GameObject _particle = Instantiate(particle, transform.position, Quaternion.identity);
+
+            // unlockUI.ShowUnlockUI();
+
             Destroy(_particle, 0.5f);
             collision.collider.GetComponent<PlayerController>().jumpLeft = 3;
             Destroy(gameObject);
@@ -41,10 +45,10 @@ public class UnlockTrippleJump : MonoBehaviour
     void Start()
     {
         PlayerController playerController = GameObject.Find("Player").GetComponent<PlayerController>();
-        if (playerController.unlockTrippleJump)
-        {
-            Destroy(gameObject);
-        }
+        // if (playerController.unlockTrippleJump)
+        // {
+        //     Destroy(gameObject);
+        // }
 
     }
 
