@@ -203,13 +203,9 @@ public class PlayerController : MonoBehaviour
 
         footstepTimer = footstepInterval;
         // checkItemPowerForBoss();
-        if (PlayerPrefs.HasKey("UnlockPowerForBoss") && PlayerPrefs.GetInt("UnlockPowerForBoss") == 1)
+        if (intToBool(PlayerPrefs.GetInt("UnlockPowerForBoss")))
         {
             unlockPowerForBoss = true;
-        }
-        else
-        {
-            unlockPowerForBoss = false;
         }
 
 
