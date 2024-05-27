@@ -1,13 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.WSA;
 
 public class UnlockRedSlash : MonoBehaviour
 {
     // didrection
     [SerializeField] GameObject particle;
-    // [SerializeField] GameObject unlockUI;
+    [SerializeField] UnlockSkill unlockUI;
     public bool isUsed;
+
 
     // create on collision damage to enemy and destroy when hit
     private void OnTriggerEnter2D(Collider2D collision)
@@ -15,8 +17,6 @@ public class UnlockRedSlash : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             isUsed = true;
-
-
 
             collision.GetComponent<PlayerController>().UnlockRedSlash();
             Destroy(gameObject);
@@ -31,30 +31,22 @@ public class UnlockRedSlash : MonoBehaviour
         {
             isUsed = true;
             GameObject _particle = Instantiate(particle, transform.position, Quaternion.identity);
+
+            // turn on unlock ui
+            unlockUI.ShowUnlockUI();
+
             Destroy(_particle, 0.5f);
             collision.collider.GetComponent<PlayerController>().UnlockRedSlash();
-            Destroy(gameObject);
-            // StartCoroutine(showUnlockUI());
 
+            Destroy(gameObject);
         }
 
     }
 
-    // IEnumerator showUnlockUI()
-    // {
-
-    //     unlockUI.SetActive(true);
-    //     yield return new WaitForSeconds(2);
-    //     unlockUI.SetActive(false);
-
-
-    // }
-
-
     // Start is called before the first frame update
     void Start()
     {
-        // get PlayerController 
+        // get PlayerController
         PlayerController playerController = GameObject.Find("Player").GetComponent<PlayerController>();
         if (playerController.unlockRedSlash)
         {
