@@ -988,4 +988,9 @@ public class PlayerController : MonoBehaviour
             unlockPowerForBoss = false;
         }
     }
+
+    public void setInputEnabled(bool value)
+    {
+        _isInputEnabled = value;
+    }
 }
