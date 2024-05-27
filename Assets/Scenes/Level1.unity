@@ -14378,8 +14378,7 @@ PrefabInstance:
         type: 3}
       propertyPath: healingEffect
       value: 
-      objectReference: {fileID: 8273610835224426424, guid: b15eb50774688c64f8e94cc9987b1bb9,
-        type: 3}
+      objectReference: {fileID: 1824840545}
     - target: {fileID: 1701969898617409398, guid: 3f189b4e844dd4c15bacde99d721494d,
         type: 3}
       propertyPath: redSlashSound
@@ -14476,6 +14475,12 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 988830102}
   m_SourcePrefab: {fileID: 100100000, guid: 3f189b4e844dd4c15bacde99d721494d, type: 3}
+--- !u!1 &1824840545 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5325607312445969785, guid: 3f189b4e844dd4c15bacde99d721494d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1824840544}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1836108687
 GameObject:
   m_ObjectHideFlags: 0
