@@ -861,13 +861,8 @@ public class PlayerController : MonoBehaviour
     // function to Heal using Input.GetButton
     public void Heal()
     {
-
-        if (Input.GetKey(KeyCode.Mouse1) && health < 5 && Mana > 0 && !_animator.GetBool("IsJump") && !_animator.GetBool("IsSprint")
-        // and isGrounded
-        )
+        if (Input.GetKey(KeyCode.Mouse1) && health < 5 && Mana > 0 && !_animator.GetBool("IsJump") && !_animator.GetBool("IsSprint"))
         {
-
-
 
             Debug.Log("Healing Effect is on");
             healingEffect.SetActive(true);

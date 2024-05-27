@@ -805,12 +805,6 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: cfd78ad5a43b6ce4291f61f37958a00a, type: 3}
     - target: {fileID: 1701969898617409398, guid: 3f189b4e844dd4c15bacde99d721494d,
         type: 3}
-      propertyPath: healingEffect
-      value: 
-      objectReference: {fileID: 8273610835224426424, guid: b15eb50774688c64f8e94cc9987b1bb9,
-        type: 3}
-    - target: {fileID: 1701969898617409398, guid: 3f189b4e844dd4c15bacde99d721494d,
-        type: 3}
       propertyPath: redSlashSound
       value: 
       objectReference: {fileID: 8300000, guid: 4ecbb0da7e2d2f24c9f23556897d9463, type: 3}
