@@ -4513,6 +4513,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 328674581003194255, guid: c677316cfec2efc4cb9ebc4611acd9a5,
         type: 3}
+      propertyPath: howToUse
+      value: Press F to use
+      objectReference: {fileID: 0}
+    - target: {fileID: 328674581003194255, guid: c677316cfec2efc4cb9ebc4611acd9a5,
+        type: 3}
       propertyPath: nameSkill
       value: Red Slash
       objectReference: {fileID: 0}
@@ -13690,11 +13695,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4195380477820900, guid: 3f189b4e844dd4c15bacde99d721494d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 105.9
+      value: -0.8
       objectReference: {fileID: 0}
     - target: {fileID: 4195380477820900, guid: 3f189b4e844dd4c15bacde99d721494d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 12.2
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4195380477820900, guid: 3f189b4e844dd4c15bacde99d721494d, type: 3}
       propertyPath: m_LocalPosition.z
